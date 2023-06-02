@@ -1,0 +1,147 @@
+@media screen and (max-width: 1050px) {
+  html {
+    font-size: 50%;
+  }
+
+  .teams-section {
+    padding: 0px 30px 100px 30px;
+  }
+  .features-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 913px) {
+  html {
+    font-size: 40%;
+  }
+  .features-image img {
+    max-width: 180%;
+  }
+  .integrations-section {
+    padding: 100px 30px 100px 30px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 35%;
+  }
+  .features-image img {
+    max-width: 180%;
+  }
+  .introduction-list-item img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .feature-icon img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .feature-icon-right img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .nav-section {
+    padding: 3.2rem 5rem;
+  }
+  .testimonials-section {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  html {
+    font-size: 35%;
+  }
+
+  .simplified-expense {
+    grid-template-columns: 1fr;
+  }
+  .integrations {
+    grid-template-columns: 1fr;
+    gap: 7rem;
+  }
+  .integration-image {
+    display: flex;
+    justify-content: center;
+  }
+  .integration-image img {
+    width: 75%;
+  }
+  .integration-content {
+    align-items: center;
+  }
+  .top-content p {
+    text-align: center;
+  }
+  .bottom-content p {
+    text-align: center;
+  }
+  .team {
+    grid-template-columns: 1fr;
+  }
+  .team-content {
+    text-align: center;
+  }
+  .team-members {
+    margin-top: 5rem;
+    row-gap: 5rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-content {
+    width: 100%;
+    text-align: center;
+    padding: 15rem 4rem 15rem 4rem;
+  }
+  .hero-img img {
+    width: 50%;
+  }
+  .hero-img {
+    text-align: center;
+  }
+  .contact img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .scenario-boxes {
+    grid-template-columns: 1fr 1fr;
+  }
+  .simplified-content {
+    align-items: center;
+  }
+  .introduction-description {
+    text-align: center;
+    padding: 0px 3rem;
+  }
+  .nav {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .hero-description {
+    padding: 0 8rem;
+  }
+  .testimonials-box {
+    grid-template-columns: 1fr;
+  }
+  .testimonial {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 3rem;
+  }
+  .reviews {
+    width: 50%;
+  }
+  .finance-section {
+    padding: 17.2rem 4.1rem;
+  }
+}
